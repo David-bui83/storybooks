@@ -12,3 +12,4 @@ const UserSchema = new Schema({
 
 // Create collection and add Schema
 mongoose.model('users', UserSchema);
+

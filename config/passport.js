@@ -18,7 +18,8 @@ module.exports = function(passport){
 
       // const image = profile.photos[0].value.substring(0, profile.photos[0].value.indexOf('?'));
       const image = profile.photos[0].value;
-      console.log(image);
+      // const img = profile.photos[0];
+      // console.log(img);
 
       const newUser = {
         googleID: profile.id,
